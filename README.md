@@ -1,13 +1,18 @@
-
-"# EDA for Data Science and ML" 
-=======
-# 📊 Exploratory Data Analysis (EDA) Lab
-
+<div align="center">
+  <h1> 📊 Exploratory Data Analysis (EDA) Lab</h1>
+  </div>
 A hands-on EDA lab that walks through data cleaning, feature exploration, statistical diagnostics, and quick modeling on:
-- **Regression**: Diabetes dataset (scikit-learn)
-- **Classification**: Iris dataset (scikit-learn)
+
+- **Regression**: Diabetes dataset `(scikit-learn)`
+- **Classification**: Iris dataset `(scikit-learn)`
+
 
 The notebook demonstrates how EDA directly informs modeling choices (e.g., handling missing values, transforming features, removing outliers) and quantifies their effects on predictive performance.
+
+
+<div align="center">
+  <img src="https://img.shields.io/badge/License-MIT-blue" alt="License: MIT">
+</div>
 
 ---
 
@@ -126,11 +131,39 @@ EDA-driven adjustments (normalizing `s3`, trimming `s2` outliers) **consistently
 ## 🖼️ Visuals Produced
 
 - Missingness bar/matrix (**missingno**)
-- Histograms & boxplots for distribution/outliers
-- Correlation heatmap (feature relationships)
-- Pairplots (multi-feature interaction)
-- Pie chart (Iris class balance)
+  <div align="center">
+  <img src="assets/missing_value_matrix.png" alt="Missing Value Matrix" width="600">
+</div>
 
+- Histograms & boxplots for distribution/outliers
+  <div align="center">
+  <img src="assets/histogram_boxplot_of_age.png" alt="Missing Value Matrix" width="600">
+  <img src="assets/histogram_boxplot_of_bmi.png" alt="bmi" width="600">
+  <img src="assets/histogram_boxplot_of_bp.png" alt="bp" width="600">
+  <img src="assets/histogram_boxplot_of_s1.png" alt="s1" width="600">
+  <img src="assets/histogram_boxplot_of_s2.png" alt="s2" width="600">
+  <img src="assets/histogram_boxplot_of_s3.png" alt="s3" width="600">
+  <img src="assets/histogram_boxplot_of_s4.png" alt="s4" width="600">
+  <img src="assets/histogram_boxplot_of_s5.png" alt="s5" width="600">
+  <img src="assets/histogram_boxplot_of_s6.png" alt="s6" width="600">
+  <img src="assets/histogram_boxplot_of_target.png" alt="target" width="600">
+</div>
+
+- Correlation heatmap (feature relationships)
+  <div align="center">
+  <img src="assets/correlation_matrix_heatmap.png" alt="correlation matrix heatmap" width="600">
+</div>
+
+- Pairplots (multi-feature interaction)
+  <div align="center">
+  <img src="assets/pairplot_part1.png" alt="pairplot part1" width="600">
+  <img src="assets/pairplot_part2.png" alt="pairplot part2" width="600">
+</div>
+
+- Pie chart (Iris class balance)
+  <div align="center">
+  <img src="assets/pie_chart.png" alt="pie chart" width="600">
+</div>
 > These figures are generated inside the notebook.
 
 ---
