@@ -6,7 +6,6 @@ A hands-on EDA lab that walks through data cleaning, feature exploration, statis
 - **Regression**: Diabetes dataset `(scikit-learn)`
 - **Classification**: Iris dataset `(scikit-learn)`
 
-
 The notebook demonstrates how EDA directly informs modeling choices (e.g., handling missing values, transforming features, removing outliers) and quantifies their effects on predictive performance.
 
 
@@ -168,6 +167,21 @@ EDA-driven adjustments (normalizing `s3`, trimming `s2` outliers) **consistently
 
 ---
 
+## ✅ Key Takeaways
+
+- Don’t drop rows blindly: Simple row removal for missing data worsened performance.
+- Impute, then improve: Median imputation helped; transformations (e.g., log(s3)) and outlier handling (e.g., s2) helped even more.
+- Keep useful features: Removing s1 did not improve performance in this setup.
+- **EDA → Modeling wins**: Diagnostics (normality tests, missingness plots) directly informed choices that lowered RMSE.
+
+---
+## 🙌 Acknowledgments
+
+**Datasets**: `scikit-learn` **(Diabetes, Iris)**
+
+**EDA helpers**: `missingno`, `fasteda`
+
+---
 ## 🚀 How to Run
 
 ```bash
@@ -190,5 +204,14 @@ pip install numpy pandas matplotlib seaborn missingno scikit-learn scipy fasteda
 # 4) Launch Jupyter
 jupyter lab
 # Open EDA_lab.ipynb and run all cells
+```
 
+## 👨‍💻 Author
+<div style="display: flex; align-items: center; gap: 20px"> <img src="https://avatars.githubusercontent.com/u/27292813?s=200" width="100" style="border-radius: 50%; box-shadow: 0 4px 8px rgba(0,0,0,0.2)"> <div> <strong>Shyam Sundar Vijayakumar</strong><br> Data Scientist | Programmer | AI Enthusiast </div> </div>
+
+---
+
+## 📜 License
+This project is licensed under the MIT License.
+Shared for educational and portfolio purposes. Attribution is appreciated.
 
