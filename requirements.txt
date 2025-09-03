@@ -1,0 +1,9 @@
+numpy
+pandas
+matplotlib
+seaborn==0.13.2
+missingno
+scikit-learn==1.4.1.post1
+scipy
+fasteda==1.0.1
+jupyterlab
