@@ -1,13 +1,8 @@
 <div align="center">
   <h1> 📊 Exploratory Data Analysis (EDA) Lab</h1>
   </div>
-A hands-on EDA lab that walks through data cleaning, feature exploration, statistical diagnostics, and quick modeling on:
 
-- **Regression**: Diabetes dataset `(scikit-learn)`
-- **Classification**: Iris dataset `(scikit-learn)`
-
-The notebook demonstrates how EDA directly informs modeling choices (e.g., handling missing values, transforming features, removing outliers) and quantifies their effects on predictive performance.
-
+A hands-on EDA lab that walks through data cleaning, feature exploration, statistical diagnostics, and quick modeling on **Regression** and **Classification**. The notebook demonstrates how EDA directly informs modeling choices (e.g., handling missing values, transforming features, removing outliers) and quantifies their effects on predictive performance.
 
 <div align="center">
   <img src="https://img.shields.io/badge/License-MIT-blue" alt="License: MIT">
@@ -15,7 +10,11 @@ The notebook demonstrates how EDA directly informs modeling choices (e.g., handl
 
 ---
 
-## 🎯 Objectives
+## 🎯 Problem Statement
+The primary challenge in real-world data science is that data is often incomplete and messy. This project demonstrates a comprehensive methodology for diagnosing and resolving common data issues, ultimately showcasing how a disciplined approach to data cleaning and preprocessing can significantly improve the performance and reliability of machine learning models.
+
+---
+## ✅ Objectives
 
 - Perform **practical EDA** using a compact set of Python commands and visualizations  
 - **Diagnose** data issues (missingness, non-normality, outliers) and apply fixes  
@@ -24,6 +23,11 @@ The notebook demonstrates how EDA directly informs modeling choices (e.g., handl
 
 ---
 
+### 🌐 Data Sources
+* Regression: **Diabetes** dataset `(scikit-learn)`
+* Classification: **Iris** dataset `(scikit-learn)`
+
+---
 ## 🧰 Technologies & Libraries
 
 - **Python 3.10+**, **Jupyter Notebook**
@@ -36,7 +40,7 @@ The notebook demonstrates how EDA directly informs modeling choices (e.g., handl
 
 ---
 
-## 🗂️ What’s Inside
+## 🗂️ Technical Methodology
 
 - **Regression (Diabetes)**
   - Load dataset, quick glance (`head`/`tail`), summary stats (`describe`)
@@ -52,7 +56,7 @@ The notebook demonstrates how EDA directly informs modeling choices (e.g., handl
 
 ---
 
-## 🔬 Key Experiments & Results (Diabetes Regression)
+## 🔬 Experiments & Results (Diabetes Regression)
 
 Below is a step-by-step record of what was tried and what changed—grounded in the notebook’s computed metrics:
 
